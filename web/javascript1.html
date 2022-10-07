@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>海外の街の紹介</title>
+</head>
+<body id="body">
+	<h2 id="h21"></h2>
+	<p id="p1"></p>
+	<h2 id="h22"></h2>
+	<p id="p2"></p>
+	<h2 id="h23"><h2>
+	<li id="li1"></li>
+	<li id="li2"></li>
+
+	<script>
+	var body = document.getElementById('body');
+	body.style['font-size'] = "12px";
+	body.style.color = "blue";
+	body.style.background = "rgb(255,255,128,0.5)";
+
+	var h21 = document.getElementById('h21');
+	var town = document.createTextNode("町の名前");
+	h21.appendChild(town);
+	h21.style['font-size'] = "24pt";
+	h21.style.border = "1px solid navy";
+
+
+	var p1 = document.getElementById('p1');
+	var town_answer = document.createTextNode("バルセロナ");
+	p1.appendChild(town_answer);
+	p1.style['text-indent'] = "4em";
+
+	var h22 = document.getElementById('h22');
+	var intro = document.createTextNode("町の紹介");
+	h22.appendChild(intro);
+	h22.style['font-size'] = "24pt";
+	h22.style.border = "1px solid navy";
+
+	var p2 = document.getElementById('p2');
+	var detail = document.createTextNode("景色も綺麗で料理が美味しい");
+	p2.appendChild(detail);
+	p2.style['text-indent'] = "4em";
+
+	var h23 = document.getElementById('h23');
+	var spot = document.createTextNode("町の観光名所");
+	h23.appendChild(spot);
+	h23.style['font-size'] = "24pt";
+	h23.style.border = "1px solid navy";
+
+	var li1 = document.getElementById('li1');
+	var spot1 = document.createTextNode("サグラダファミリア");
+	li1.appendChild(spot1);
+	li1.style['line-height'] = "0.8";
+	li1.style['background-color'] = "light-blue";
+
+	var li2 = document.getElementById('li2');
+	var spot2 = document.createTextNode("グエル公園");
+	li2.appendChild(spot2);
+	li2.style['line-height'] = "0.8";
+	li2.style['background-color'] = "light-blue";
+
+	</script>
+</body>
+</html>

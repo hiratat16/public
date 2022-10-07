@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Barcelona</title>
+</head>
+<body>
+	<a href="town.html.ja">日本語ページへジャンプ</a>
+	<h2>City Name</h2>
+	<p>Barcelona</p>
+	<h2>Introduction to the city</h2>
+	<p>Beautiful view, great food!</p>
+	<h2>Places to visit in the town</h2>
+	<li>Sagrada Familia</li>
+	<li>Gweru Park</li>
+</body>
+</html>

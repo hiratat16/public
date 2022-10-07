@@ -1,0 +1,20 @@
+body {
+	font-size: 12px;
+	color: blue;
+	background: rgb(255,255,128,0.5);
+}
+
+h2 {
+	font-size: 24pt;
+	border: 1px solid navy;
+}
+
+p {
+	text-indent: 4em;
+}
+
+li { 
+	line-height: 0.8;
+	background-color: light-blue;
+}
+
