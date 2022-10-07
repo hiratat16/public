@@ -1,0 +1,35 @@
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    height: 100px;
+    border-width: thick;
+    border-color: gray;
+    border-style: solid;
+}
+
+.sidebar {
+    border-width: thick;
+    border-color: blue;
+    border-style: solid;
+    padding: 5px;
+    width: 70px; 
+}
+
+.content {
+    border-width: thick;
+    border-color: gray;
+    border-style: solid;
+    padding:5px;   
+    
+}
+
+.footer {
+    height: 100px;
+    border-width: thick;
+    border-color: gray;
+    border-style: solid;
+}
+
